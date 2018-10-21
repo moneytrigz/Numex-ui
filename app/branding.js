@@ -77,7 +77,7 @@ export function getUnits(chainId = "4018d784") {
  */
 
 export function getMyMarketsBases() {
-    return ["BTC", "ETH", "USD"];
+    return ["BTC", "ETH", "USD", "CNY"];
 }
 
 /**
@@ -89,14 +89,14 @@ export function getMyMarketsQuotes() {
     let tokens = {
         nativeTokens: [
             "BTC",
-            "USD",
+            "BTS",
             "CNY",
             "EUR",
             "GOLD",
             "KRW",
             "RUBLE",
             "SILVER",
-            "BTS"
+            "USD"
         ],
         bridgeTokens: ["BRIDGE.BCO", "BRIDGE.BTC", "BRIDGE.MONA", "BRIDGE.ZNY"],
         gdexTokens: ["GDEX.BTC", "GDEX.BTO", "GDEX.EOS", "GDEX.ETH"],
